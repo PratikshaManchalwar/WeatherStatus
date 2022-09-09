@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="margin_default">6dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="margin_larger">16dp</dimen>
+    <dimen name="margin_huge">20dp</dimen>
+    <dimen name="margin_huger">32dp</dimen>
+    <dimen name="margin_gigantic">60dp</dimen>
+
+    <dimen name="textSizeTitle">24sp</dimen>
+    <dimen name="textSizeSubTitle">16sp</dimen>
+    <dimen name="textSizeSettingItem">15sp</dimen>
+    <dimen name="textSizeHuge">48sp</dimen>
+    <dimen name="textSizeEvenLarger">22sp</dimen>
+    <dimen name="textSizeLarger">18sp</dimen>
+    <dimen name="textSizeLarge">16sp</dimen>
+    <dimen name="textSizeDefault">14sp</dimen>
+    <dimen name="textSizeSmall">12sp</dimen>
+    <dimen name="textSizeTiny">10sp</dimen>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="placeholderColor">#FAFAFA</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteFadedLess">#32FFFFFF</color>
+    <color name="whiteFaded">#80FFFFFF</color>
+    <color name="whiteFadedMore">#DDFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blackFaded">#80000000</color>
+    <color name="blackReallyFaded">#20000000</color>
+    <color name="swampyGreen">#669999</color>
+    <color name="swampyGreenDark">#517A7A</color>
+    <color name="gagaBlue">#00a8ca</color>
+    <color name="gagaLightBlue">#C8E7EC</color>
+    <color name="darkBlue">#243E9A</color>
+    <color name="lightBlue">#3C9B9C</color>
+    <color name="darkAndFullOfErrors">#333333</color>
+    <color name="grayJedi">#F0F0F0</color>
+    <color name="silverBack">#F7F7F7</color>
+    <color name="yetAnotherShadeOfGray">#202020</color>
+    <color name="guessWhatMoreGray">#4A4A4A</color>
+    <color name="brownGrey">#979797</color>
+    <color name="brownGreyFaded">#E5979797</color>
+    <color name="itsAlmostBlackButLittleDoYouKnowItsActuallyAShadeOfGray">#212121</color>
+    <color name="gagaActionGreen">#31CC99</color>
+    <color name="reddishOrange">#E55820</color>
+    <color name="redWithABitOfOrange">#AA0000</color>
+    <color name="black100">#333333</color>
+    <color name="gray200">#EEEEEE</color>
+
+    <!-- text colors -->
+    <color name="mainText">#515151</color>
+    <color name="subText">#bcbec5</color>
+    <color name="songMenuOption">#808080</color>
+    <color name="semiTransparentWhite">#7FFFFFFF</color>
+
+    <color name="darkOverlay">#AB000000</color>
+    <color name="slightOverlay">#33000000</color>
+    <color name="missingContent">#9b9b9b</color>
+
+    <color name="lineBackground">#ECECED</color>
+    <color name="grayBorder">#DFDFDF</color>
+
+    <!-- capo slider colors -->
+    <color name="lineColor">#666666</color>
+    <color name="dotColor">#666666</color>
+    <color name="fretboardColor">#EBEBEB</color>
+    <color name="capoColor">#00A8CA</color>
+    <color name="capoHintColor">#33009DC6</color>
+    <color name="capoHintOrbColor">#009DC6</color>
+
+    <color name="songOptionSelected">#EEEEEE</color>
+    <color name="brand_green_20">#E0EBEB</color>
+    <color name="orange_100">#F07E32</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="SplashScreenTheme" parent="Theme.GetTheNotes">
+        <item name="colorPrimary">@color/swampyGreen</item>
+        <item name="colorPrimaryDark">@color/swampyGreenDark</item>
+        <item name="android:windowBackground">@drawable/splash_drawable</item>
+    </style>
+</resources>

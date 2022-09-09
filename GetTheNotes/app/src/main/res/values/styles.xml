@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file should only contain styles that are different between android versions.-->
+<!--All generic styles must be added to styles.xml-->
+<resources>
+    <style name="Toolbar">
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+    <style name="TextDefault" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/textSizeDefault</item>
+    </style>
+    <style name="TextDefault.SingleLine">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/square_rounded_corners</item>
+        <item name="android:backgroundTint">@color/gagaActionGreen</item>
+    </style>
+</resources>
