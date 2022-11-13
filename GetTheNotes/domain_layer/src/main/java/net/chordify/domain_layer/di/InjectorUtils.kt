@@ -1,12 +1,17 @@
 package net.chordify.domain_layer.di
 
 import net.chordify.chordify.domain.di.DataLayerInjectorInterface
+import net.chordify.domain_layer.usecases.GetChordsInteractor
 import net.chordify.domain_layer.usecases.GetNotesInteractor
 
 class InjectorUtils(private val dataLayerInjector: DataLayerInjectorInterface) {
 
     fun provideGetNotesInteractor(): GetNotesInteractor {
         return GetNotesInteractor(dataLayerInjector.provideChordsRepository())
+    }
+
+    fun provideChordDetailsInteractor(): GetChordsInteractor {
+        return GetChordsInteractor(dataLayerInjector.provideChordsRepository())
     }
 
     companion object {

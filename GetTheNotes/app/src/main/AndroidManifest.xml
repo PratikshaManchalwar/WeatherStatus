@@ -15,7 +15,7 @@
         android:name=".GetTheNotesApp"
         tools:targetApi="31">
         <activity
-            android:name=".GetTheNotesActivity"
+            android:name=".GetTheChordActivity"
             android:exported="true"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
@@ -23,6 +23,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".GetTheNotesActivity"
+            android:exported="true">
         </activity>
     </application>
 

@@ -1,6 +1,7 @@
 package net.chordify.getthenotes.di
 
 import androidx.lifecycle.ViewModelProvider
+import net.chordify.getthenotes.ChordsViewModelFactory
 import net.chordify.getthenotes.MainViewModelFactory
 
 class InjectorUtils(private val domainLayerInjector: net.chordify.domain_layer.di.InjectorUtils) {
@@ -9,6 +10,10 @@ class InjectorUtils(private val domainLayerInjector: net.chordify.domain_layer.d
         return MainViewModelFactory(
             domainLayerInjector.provideGetNotesInteractor()
         )
+    }
+
+    fun provideChordsViewModel():ViewModelProvider.Factory {
+        return ChordsViewModelFactory(domainLayerInjector.provideChordDetailsInteractor())
     }
 
     companion object {
